@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+
+body > div {
+    border-radius: 15px;
+    width: 900px;
+    height: 530px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenitore {
+    margin: auto;
+    padding: 70px 70px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    color: rgb(110, 220, 0);
+    margin-bottom: 2px;
+}
+
+header > img {
+    width: 150px;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(110, 220, 0);
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+nav > button {
+    height: 20px;
+    font-size: 8px;
+    font-weight: 600px;
+}
+
+main {
+    color: white;
+}
+
+section > h3 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.batteria-neutra {
+    background-color: rgb(255, 180, 42);
+    width: 290px;
+    height: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.batteria-carica {
+    background-color: rgb(64, 184, 0);
+    width: 500px;
+    height: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.batteria-scarica {
+    background-color: rgb(254, 59, 59);
+    width: 150px;
+    height: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
